@@ -27,5 +27,8 @@ body {
 }
 
 .logo {
+  max-width: 24px;
+  font-size: 24px;
+  font-weight: bold;
   margin-right: auto;
 }
