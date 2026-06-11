@@ -32,3 +32,50 @@ body {
   font-weight: bold;
   margin-right: auto;
 }
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+ .counter-article{
+  align-items: center;
+  
+}
+
+.counter-container, p{
+  display: flex;
+  align-items: center;
+  padding: 8px 250px;
+  margin-top: 25px;
+
+ 
+}
+
+p {
+  font-size: 16px;
+ 
+}
+
+.counter-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333333;
+  margin: 15px 80px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: transparent;
+  color: #333333;
+  border: 1px solid #333333;
+}
+
+.counter-value {
+  font-size: 110px;
+  margin-top: 20px;
+}
+
