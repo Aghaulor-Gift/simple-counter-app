@@ -6,6 +6,26 @@ body {
 
 
 .nav-bar {
-  background-color: #333;
-  overflow: hidden;
+  background-color: #e5d5d5;
+  padding :12px 25px;
+  margin: 0;
+}
+
+.nav-list {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 70px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: #333333;
+  margin-bottom: 5px;
+}
+
+.logo {
+  margin-right: auto;
 }
