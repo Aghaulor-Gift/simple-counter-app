@@ -54,8 +54,8 @@ h1 {
 .counter-container, p{
   display: flex;
   align-items: center;
-  padding: 8px 250px;
-  margin-top: 25px;
+  padding: 6px 250px;
+  margin-top: 5px;
 
  
 }
@@ -69,7 +69,7 @@ p {
   padding: 10px 20px;
   font-size: 16px;
   background-color: #333333;
-  margin: 15px 80px;
+  margin: 5px 80px;
   color: white;
   border: none;
   border-radius: 4px;
@@ -86,6 +86,24 @@ p {
   font-size: 110px;
   margin-top: 20px;
 }
+
+.reset-container {
+  display: flex;
+  align-items: center;
+  padding: 8px 250px;
+ 
+}
+.reset-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #333333;
+  margin: 3px 200px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
 
 /* End of Counter Styles */
 
