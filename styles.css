@@ -4,6 +4,7 @@ body {
   padding: 0;
 }
 
+/* Navigation Bar Styles */
 
 .nav-bar {
   background-color: #e5d5d5;
@@ -33,11 +34,18 @@ body {
   margin-right: auto;
 }
 
+/* End of Navigation Bar Styles */
+
+/*header styles*/
 h1 {
   text-align: center;
   margin-top: 50px;
 }
 
+
+/* End of header styles */
+
+/* Counter Styles */
  .counter-article{
   align-items: center;
   
@@ -79,3 +87,34 @@ p {
   margin-top: 20px;
 }
 
+/* End of Counter Styles */
+
+/* Footer Styles */
+.footer-section {
+  background-color: #e5d5d5;
+  margin-top: 40px;
+  font-size: 14px;
+  text-align: center;
+  padding: 10px;
+  
+}
+
+.footer-section a {
+  color: #9e0e0ea5;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-section a:hover {
+  color: #333333;
+}
+
+.footer-section p {
+  margin: 10px auto;
+  padding: 8px 300px;
+  font-size: 12px;
+  text-align: center; 
+}
+
+/* End of Footer Styles */
